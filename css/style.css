@@ -364,14 +364,15 @@ ol {
     Header Section
 --------------------------*/
 .header-section {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   position: relative;
 }
 
-.site-logo {
-  font-size: 24px;
-  padding-top: 20px;
+.site-logo img {
+  vertical-align: middle
+    height: 69.708px;
+    width: 200px;
 }
 
 .main-menu ul {
@@ -394,6 +395,7 @@ ol {
 .header-btn {
   float: right;
   margin-right: 0;
+  
 }
 
 .nav-switch {
